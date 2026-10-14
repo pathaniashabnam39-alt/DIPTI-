@@ -28,9 +28,9 @@ jobs:
       - name: Install Bubblewrap CLI
         run: npm install -g @bubblewrap/cli
 
-      - name: Initialize and Build APK
+      - name: Build APK
         run: |
-          npx @bubblewrap/cli init --manifest=https://pathaniashabnam39-alt.github.io/Dipti/manifest.json
+          npx @bubblewrap/cli init --manifest=https://pathaniashabnam39-alt.github.io/DIPTI-/manifest.json --skipValidation
           npx @bubblewrap/cli build
 
       - name: Upload APK
@@ -38,3 +38,4 @@ jobs:
         with:
           name: app-release
           path: ./*.apk
+
