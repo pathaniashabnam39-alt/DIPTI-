@@ -1,0 +1,17 @@
+{
+  "name": "Two Unknown Variables",
+  "short_name": "Two Variables",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070918",
+  "theme_color": "#080b1c",
+  "description": "An interactive galaxy about two paths, distance, and meeting again.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
